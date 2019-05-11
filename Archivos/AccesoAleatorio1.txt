@@ -1,0 +1,3 @@
+Escribe un Programa Que acceda aleatoriamente a un fichero de texto.
+El programa debe preguntar al usuario posiciones del fichero y
+convertir a mayúsculas el carácter leído en esa posición.

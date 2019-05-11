@@ -1,11 +1,11 @@
 package Ejercicios1;
 
 
-/*
-1. - A partir de dos ficheros de texto se creará un tercer fichero cuyo contenido se obtendrá uniendo la información de estos ficheros.
-Cada línea del fichero creado estará formado por la unión de la misma línea de los dos ficheros leídos. Se solicitará al usuario 
-el nombre de los ficheros y la tira de separación entre ambas líneas.
- */
+/**
+*1. - A partir de dos ficheros de texto se creará un tercer fichero cuyo contenido se obtendrá uniendo la información de estos ficheros.
+*Cada línea del fichero creado estará formado por la unión de la misma línea de los dos ficheros leídos. Se solicitará al usuario 
+*el nombre de los ficheros y la tira de separación entre ambas líneas.
+* */
 
 /**
  * @proyecto Tema10-Ficheros

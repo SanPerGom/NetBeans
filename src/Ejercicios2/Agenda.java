@@ -13,11 +13,23 @@ import java.io.Serializable;
  * @fecha 22-abr-2019 17:47:40
  * @author SantiPG
  */import java.io.*;
+
+/**Clase agenda
+ * 
+ * @author SantiPG
+ */
 public class Agenda implements Serializable{
 
         private String nombre, direccion, email;
         private long telefono;
-
+        
+        /**Constructor
+         * 
+         * @param nom: nombre
+         * @param dir: dirección
+         * @param email: correo electronico
+         * @param tel: telefono de contacto
+         */
         public Agenda(String nom, String dir, String email, long tel) {
             this.nombre = nom;
             this.direccion = dir;
@@ -25,14 +37,26 @@ public class Agenda implements Serializable{
             this.telefono = tel;
         }
         
+        /**
+         * metodo para imprimir entradas de la agenda
+         * @return String con los datos
+         */
         public String toString(){
             return nombre+", "+direccion+", "+email+", "+telefono;
         }
-
+        
+        /**
+         * Getter del nombre
+         * @return nombre
+         */
         public String getNombre() {
             return nombre;
         }
-
+        
+        /**
+         * Setter del nombre
+         * @param nombre: establece nombre
+         */
         public void setNombre(String nombre) {
             this.nombre = nombre;
         }
